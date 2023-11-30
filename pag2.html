@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luca Giacomello Portfolio</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/logo.svg" type="image/x-icon" onclick="window.location.href='test.html'">
+    
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,
+    wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&
+    family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
+
+
+    <!-- OPEN GRAPH-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Luca Giacomello Portfolio" />
+    <meta property="og:url" content="https://lucagiacomello.github.io/portfolio/" />
+    <meta property="og:image" content="assets/img/cover_social.png" /> <!--non esiste la foto-->
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="MODIFICARE" /> <!--MODIFICARE-->
+
+    <!-- STILI -->
+    <link rel="stylesheet" href="style.css">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script src="js/JScript.js"></script>
+
+</head>
+
+<body>
+
+    <div class="containerMy">
+
+        <!--LOGO-->
+        <a href="test.html">
+        <img src="images\logo.svg" alt="Logo del sito" class="logo">    <!-- LOGO -->
+        </a> 
+
+        <!--NAVBAR-->
+        <nav class="nav">
+            <button class="hamburger" id="hamburger">&#9776;</button>
+            <button class="cross" id="cross">&#735;</button>
+            <ul class="navbar-collapse" id="navbar-collapse">
+                <li><a href="test.html#chisono">Chi sono</a></li>
+                <li><a href="test.html#portfolio">Portfolio</a></li>
+                <li><a href="test.html#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+
+        <!--TITOLO-->
+        <div class="intro-2">
+            <h2 class="titolo-pagina2">PORTFOLIO</h2>
+        </div>
+        <div>
+            <h2 class="sottotitolo-pag2">In questa pagina puoi trovare tutti i miei progetti.</h2>
+        </div>
+
+        <!--PROGETTI-->
+        <div class="row">
+            <div class="col-xl-4 col-sm-4 px-3"> <!--px-md-4 distanzia il margine destro e sinistro ed il bottom e top https://getbootstrap.com/docs/4.3/utilities/spacing/ -->
+                <a href="pdf/CASE STUDY.pdf" download="Case Study iDoctors" target="_blank">
+                    <img src="images/case.png" alt="immagine case study" class="immagine-lista">
+                </a>
+                <h2 class="titolo-imm">Case Study</h2>
+                <p class="p-lista-pag2">Ho realizzato il case study di <strong>iDoctors</strong>. <br>
+                    Il progetto contiene le fasi di: <br>
+                    Discovery, Wireframing, UI e User Test.
+                </p>
+            </div>
+
+            <div class="col-xl-4 col-sm-4 px-3">
+                <a href="pdf/PRESENTAZIONE GRAFICA.pdf" download="Brand Identity" target="_blank">
+                    <img src="images/brand.png" alt="immagine brand identity" class="immagine-lista">
+                </a>
+                <h2 class="titolo-imm">Brand Identity</h2>
+                <p class="p-lista-pag2">Ho ideato la brand identity di una nuova <br> società di car sharing.</p>
+            </div>
+
+            <div class="col-xl-4 col-sm-4 px-3">
+                <a href="pdf/PRESENTAZIONE COPYWRITING.pdf" download="Copywriting" target="_blank">
+                    <img src="images/copy.png" alt="immagine copywriting" class="immagine-lista">
+                </a>
+                <h2 class="titolo-imm">Copywriting</h2>
+                <p class="p-lista-pag2">Ho realizzato un blog post per un hotel ecosostenibile.</p>
+            </div>
+        </div>
+
+        
+<!--PROGETTI-->
+<div class="row">
+    <div class="col-xl-4 col-sm-4 px-3"> <!--px-md-4 distanzia il margine destro e sinistro ed il bottom e top https://getbootstrap.com/docs/4.3/utilities/spacing/ -->
+        <a href="pdf/CASE STUDY.pdf" download="Case Study iDoctors" target="_blank">
+            <img src="images/case.png" alt="immagine case study" class="immagine-lista">
+        </a>
+        <h2 class="titolo-imm">Case Study</h2>
+        <p class="p-lista-pag2">Ho realizzato il case study di <strong>iDoctors</strong>. <br>
+            Il progetto contiene le fasi di: <br>
+            Discovery, Wireframing, UI e User Test.
+        </p>
+    </div>
+
+    
+</div>
+        
+
+        <!-- ELEMENTO A CAPO -->
+        <!-- <div class="row">
+            <div class="col-xl-4 col-sm-4 px-3">
+                <a href="pdf/PRESENTAZIONE COPYWRITING.pdf" download="Copywriting" target="_blank">
+                    <img src="images/copy.png" alt="immagine copywriting" class="immagine-lista">
+                </a>
+                <h2 class="titolo-imm">Copywriting</h2>
+                <p class="p-lista-pag2">Ho realizzato un blog post per un hotel ecosostenibile.</p>
+            </div>
+        </div> 
+        -->
+    
+        <!--COLLEGAMENTI-->
+        <div class="loghi-social">
+
+            <a href="https://www.linkedin.com/in/luca-giacomello-651142276/" target="_blank" class="social-link"> 
+                <img src="images/linkedin.svg" alt="Logo LinkedIn" class="logo" id="linkedin-logo">
+            </a>
+
+            <a href="https://www.linkedin.com/in/luca-giacomello-651142276/" target="_blank" class="social-link"> 
+                <img src="images/behance.svg" alt="Logo Behance" class="logo" id="behance-logo">
+            </a>
+
+            <a href="https://www.linkedin.com/in/luca-giacomello-651142276/" target="_blank" class="social-link"> 
+                <img src="images/github.svg" alt="Logo Github" class="logo" id="github-logo">
+            </a>
+
+        </div>
+    </div>
+  
+    
+
+    <!--FOOTER-->
+    <div class="footer">
+        Copyright © 2023 Luca Giacomello. All Rights Reserved
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"> </script>
+    <script src="bootstrap/jquery/jquery.js"></script>
+    <script src="bootstrap/js/site.js"></script>
+</body>
+
+</html>

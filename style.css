@@ -1,0 +1,696 @@
+body{
+    font-family: 'Jost', sans-serif; /* forse non esiste */
+    font-family: 'Poppins', sans-serif;
+    scrollbar-color: #1A65E0 #f1f1f1;
+    scrollbar-width: thin;
+  }
+
+/* NAVBAR */
+
+.logo {
+    float: left; /* Posiziona il logo a sinistra */
+    margin-right: 20px; 
+    margin-top: 25px;
+    cursor: pointer;
+    /* margin-left: -20px; */
+}
+
+.nav {
+    text-align: right;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+     display: inline;
+    /*margin-left: 25px;*/
+    padding-left: 40px;
+    /*margin-right: -16px; */
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #101515;
+}
+
+.nav ul li a:hover {
+    color: #1A65E0;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #1A65E0; /* Colore della sottolineatura */
+    text-decoration-thickness: 0.2em;
+    text-decoration-skip-ink: auto; /* Angoli rotondi sulla sottolineatura */
+    text-underline-offset: 0.5em;
+}
+
+
+#test1
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.hamburger {
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    padding: 5px 15px 0px 15px;
+    color: #000000;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+}
+
+.cross {
+    background: none;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 7px 15px 0px 15px;
+    color: #000000;
+    border: 0;
+    font-size: 3em;
+    line-height: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+}
+
+#navbar-collapse-mio{
+    border-radius:5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    background: rgb(119, 67, 67) !important;
+    z-index: 69;
+    text-align: center;
+    transition: 6s;
+    transform: translateY(0%);
+   
+}     
+
+#navbar-collapse-mio li {
+            font-size: 40px;
+            color: white;
+}
+
+/* TITOLO */
+
+.titolo {
+    font-weight: 200;
+    font-size: 50px;
+    color: #0e0f11;
+    margin-top: 250px; 
+    margin-bottom: 30px;
+    text-align: left; 
+}
+
+.titolo-bold {
+    font-weight: 500;
+}
+
+.titolo-blu {
+    color: #1A65E0; /* Cambia il colore desiderato */
+    font-weight: 500;
+}
+
+.cta-download {
+    display: inline-block;
+    background-color: #1A65E0; /* Colore di sfondo blu chiaro */
+    color: #fff; /* Colore del testo bianco */
+    font-size: 25px;
+    padding: 10px 20px; /*possibiltà responsive 2% 5%;*/
+    padding-bottom: 13px;
+    padding-top: 10px;
+    padding-left: 26px;
+    padding-right: 26px;
+    border: none;
+    border-radius: 20px; /* Angoli arrotondati */
+    text-decoration: none;
+    /*margin-left: 70px;*/
+    display: block; /* Per fare in modo che il pulsante occupi l'intera larghezza */
+    text-align: center; /* Centra il testo all'interno del pulsante */
+    width: fit-content; /* Adatta la larghezza del pulsante al contenuto */
+    margin-bottom: 100px;
+}
+
+.cta-download:hover {
+    display: inline-block;
+    background-color: rgb(46, 46, 145); /* Colore di sfondo blu chiaro */
+    color: #fff; /* Colore del testo bianco */
+    font-size: 25px;
+    padding: 10px 20px; /*possibiltà responsive 2% 5%;*/
+    padding-bottom: 13px;
+    padding-top: 10px;
+    padding-left: 26px;
+    padding-right: 26px;
+    border: none;
+    border-radius: 20px; /* Angoli arrotondati */
+    text-decoration: none;
+    /*margin-left: 70px;*/
+    display: block; /* Per fare in modo che il pulsante occupi l'intera larghezza */
+    text-align: center; /* Centra il testo all'interno del pulsante */
+    width: fit-content; /* Adatta la larghezza del pulsante al contenuto */
+    margin-bottom: 100px;
+}
+
+/* CHI SONO */
+
+.chi-sono{
+    color: #1A65E0;
+    font-size: 30px;
+    margin-left: 1px;
+    padding-top: 60px;
+    padding-bottom: 16px;
+}
+
+.img{
+    float: right; /* Posiziona l'immagine a sinistra del testo */
+    margin-right: -170px; /*sposta a sinistra se diventa -190*/
+    margin-bottom: 35px;
+    margin-top: -25px; /* sposta su se diventa -100 */
+    
+    width: 160%; 
+    /* border: 2px solid rgb(64, 0, 255); */
+   /* margin-top: -120x; */
+    /* border-color: rgb(64, 0, 255); */
+}
+
+/*SKILLS*/
+
+.riga-blu{
+    border: 4px solid #1A65E0;
+    opacity: 2.5;
+    border-radius: 10px;
+    width: 65%;
+    margin-left: -3px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.font-size-paragrafi {
+    font-size: 18px;
+}
+
+.titolo-competenze {
+    padding-top: 55px;
+    font-size: 24px;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio{
+    color: #1A65E0;
+    font-size: 30px;
+    margin-left: 1px;
+    padding-top: 69px;
+    padding-bottom: 16px;
+}
+
+.immagine-lista {
+    max-width: 90%;
+    height: auto;
+    border: 2px solid #1A65E0;
+    border-radius: 10px;
+    margin-left: -3px;   
+}
+
+.immagine-lista:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 30px 3px #1A65E0;
+}
+
+.titolo-imm {
+    font-weight: 500;
+    padding-top: 10px;
+    font-size: 26px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+.p-lista
+{
+    font-size: 16px;
+    padding-top: 2px;
+}
+
+.cta-vedi {
+    display: inline-block;
+    background-color: #1A65E0; /* Colore di sfondo blu chiaro */
+    color: #fff; /* Colore del testo bianco */
+    font-size: 25px;
+    padding: 10px 20px; /*possibiltà responsive 2% 5%;*/
+    padding-bottom: 13px;
+    padding-top: 10px;
+    padding-left: 26px;
+    padding-right: 26px;
+    border: none;
+    border-radius: 20px; /* Angoli arrotondati */
+    text-decoration: none;
+    /*margin-left: 70px;*/
+    display: block; /* Per fare in modo che il pulsante occupi l'intera larghezza */
+    text-align: center; /* Centra il testo all'interno del pulsante */
+    width: fit-content; /* Adatta la larghezza del pulsante al contenuto */
+    display: block; /* Imposta il bottone come blocco per centrarlo */
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.cta-vedi:hover {
+    display: inline-block;
+    background-color: rgb(46, 46, 145); /* Colore di sfondo blu chiaro */
+    color: #fff; /* Colore del testo bianco */
+    font-size: 25px;
+    padding: 10px 20px; /*possibiltà responsive 2% 5%;*/
+    padding-bottom: 13px;
+    padding-top: 10px;
+    padding-left: 26px;
+    padding-right: 26px;
+    border: none;
+    border-radius: 20px; /* Angoli arrotondati */
+    text-decoration: none;
+    /*margin-left: 70px;*/
+    display: block; /* Per fare in modo che il pulsante occupi l'intera larghezza */
+    text-align: center; /* Centra il testo all'interno del pulsante */
+    width: fit-content; /* Adatta la larghezza del pulsante al contenuto */
+    display: block; /* Imposta il bottone come blocco per centrarlo */
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+/*FORM*/
+
+.contatti{
+    color: #1A65E0;
+    font-size: 30px;
+    margin-left: 1px;
+    padding-top: 60px;
+    padding-bottom: 16px;
+}
+
+.container_form{
+    padding-left: -50px;
+    padding-top: 50px;
+}
+
+.form {
+    display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+}
+
+.cta-invia {
+    display: inline-block;
+    background-color: #1A65E0; /* Colore di sfondo blu chiaro */
+    color: #fff; /* Colore del testo bianco */
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.cta-invia:hover {
+    display: inline-block;
+    background-color: rgb(46, 46, 145); /* Colore di sfondo blu chiaro */
+    color: #fff; /* Colore del testo bianco */
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.loghi-social{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+
+.footer{
+    
+    background-color: #1A65E0;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 85px;
+    width: 100%;
+    margin-left: auto;
+    justify-content: center;
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #1A65E0;
+    font-size: 250%;
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Rende il pulsante rotondo */
+    width: 70px; /* Larghezza uguale all'altezza per rendere il pulsante tondo */
+    height: 70px; /* Adeguato padding per rendere il pulsante rotondo */
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+
+#scrollToTopBtn:hover {
+    background-color: rgb(46, 46, 145);
+}
+
+/*PAGINA 2*/
+
+.intro-2{
+    margin-top: 70px;
+    margin-bottom: 75px;
+    font-size: 18px;
+}
+
+.titolo-pagina2{
+    color: #1A65E0;
+    font-size: 40px;
+    margin-bottom: -50px;
+    padding-top: 60px;
+    text-align: center;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.sottotitolo-pag2 {
+    font-weight: lighter;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 130px;
+    padding-top: 12px;
+}
+
+.p-lista-pag2
+{
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+#linkedin-logo {
+    width: 50px; /* Imposta la larghezza desiderata */
+    height: auto; /* L'altezza si adatta proporzionalmente alla larghezza */
+}
+
+.social-link:hover #linkedin-logo {
+    content: url('images/linkedin-hover.svg'); 
+}
+
+#github-logo {
+    width: 50px; /* Imposta la larghezza desiderata */
+    height: auto; /* L'altezza si adatta proporzionalmente alla larghezza */
+}
+
+.social-link:hover #github-logo {
+    content: url('images/github-hover.svg'); /* Sostituisci con il percorso della tua immagine Behance */
+}
+
+#behance-logo {
+    width: 50px; /* Imposta la larghezza desiderata */
+    height: auto; /* L'altezza si adatta proporzionalmente alla larghezza */
+}
+
+.social-link:hover #behance-logo {
+    content: url('images/behance-hover.svg'); /* Sostituisci con il percorso della tua immagine Behance */
+}
+
+
+/*ALTRO*/
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #1A65E0; 
+    border-radius: 6px;
+    border: 3px solid #f1f1f1;
+  }
+  
+
+  
+  /* Contenitore del corpo */
+  .content {
+    height: 1000px;
+  }
+  
+  .progress-bar {
+    width: 0%;
+    height: 30px;
+    background-color: #1A65E0; /* Colore blu della progress bar */
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+  
+
+.header {
+    background-color: #333;
+      color: #fff;
+      padding: 10px 0;  
+}
+
+
+.mycontainer {
+    width: 97%;
+    margin: 0 auto;
+    margin-bottom: auto;
+    padding: 20px;
+    background-color: rgb(223, 138, 9);
+}
+
+
+label {
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #1A65E0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.liste-container {
+            width: 100%;
+            display: flex; /* Utilizza il layout flessibile (Flexbox) */
+            justify-content: space-between; /* Allinea le liste in orizzontale con spazio tra di loro */
+            padding-left: 10px;
+            padding-bottom: 40px;   /* spaziatura */
+            align-items: center;
+       }
+
+
+       .liste-container2 {
+        width: 100%;
+        display: flex; /* Utilizza il layout flessibile (Flexbox) */
+        justify-content: space-between; /* Allinea le liste in orizzontale con spazio tra di loro */
+        padding-left: 164px;
+        padding-top: -20px;
+        padding-bottom: 50px;   /* spaziatura */
+   }
+
+    .list{
+        flex: 1;
+        padding-left: 0px;
+        padding-top: 30px;
+        margin-left: -10px;
+        text-align: left;
+        font-size: 18px;
+    }
+    
+
+    .elemento-lista2 {
+        padding: 10px;         
+}
+
+
+    .elemento-lista2 {
+        flex: 1; /* Ogni elemento occupa la stessa quantità di spazio orizzontale */
+        padding: 2px; /*Aggiunge spaziatura interna */
+        margin-left: -10px;
+              
+}
+
+
+        /* Stile per il titolo della lista */
+        .titolo-lista {
+            font-weight: bold;
+            padding-top: 10px;
+            font-size: 26px;
+        }
+
+        
+    
+.containerMy,
+.containerMy-fluid,
+.containerMy-xxl,
+.containerMy-xl,
+.containerMy-lg,
+.containerMy-md,
+.containerMy-sm {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 80%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.liste-containerpag2 {
+    width: 100%;
+    display: flex; /* Utilizza il layout flessibile (Flexbox) */
+    justify-content: space-between; /* Allinea le liste in orizzontale con spazio tra di loro */
+    padding-left: 10px;
+    padding-top: 50px;
+}
+.list{
+flex: 1;
+padding-left: 0px;
+padding-top: 30px;
+padding-bottom: 60px;
+margin-left: -10px;
+text-align: left;
+}
+.elemento-lista {
+    flex: 1; /* Ogni elemento occupa la stessa quantità di spazio orizzontale */
+    padding: 2px; /*Aggiunge spaziatura interna */
+    padding-right: 43px;
+}
+
+/* Stile per il titolo della lista */
+.titolo-lista {
+    font-weight: lighter;
+    padding-top: 10px;
+    font-size: 26px;
+}
+
+/* Stile per l'immagine */
+.immagine-lista {
+    max-width: 105%;
+    height: auto;
+}
+
+
+
+@media (max-width: 576px) 
+{ 
+    .containerMy-sm, .containerMy {
+      max-width: 576px;
+      
+    }
+    .imagePrimary
+    {
+        margin-left: -11%;
+    }
+    .cloneImage
+    {
+        margin-left: -20%;
+    }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 5px;
+}
+}
+  @media (max-width: 768px) {
+    .containerMy-md, .containerMy-sm, .containerMy {
+      max-width: 768px;          
+    }
+    .imagePrimary
+    {
+        margin-left: -11%;
+    }
+    .cloneImage
+    {
+        margin-left: -20%;
+    }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 5px;
+
+
+}
+
+}
+
+  @media (max-width: 992px) {
+    .containerMy-lg, .containerMy-md, .containerMy-sm, .containerMy {
+      max-width: 960px;
+     
+    }
+    input,
+    textarea {
+        width: 50%;
+        padding: 50px;
+    }
+
+  }
+  @media (max-width: 1200px) {
+    .containerMy-xl, .containerMy-lg, .containerMy-md, .containerMy-sm, .containerMy {
+      max-width: 1140px;
+    }
+    input,
+    textarea {
+        width: 40%;
+        padding: 5px;
+    }
+  }
+  @media (max-width: 1400px) {
+    .containerMy-xxl, .containerMy-xl, .containerMy-lg, .containerMy-md, .containerMy-sm, .containerMy {
+      max-width: 1320px;
+    }
+    input,
+    textarea {
+        width: 40%;
+        padding: 5px;
+    }
+  }
+
+  @media (max-width: 1600px) {
+    .containerMy-xxl, .containerMy-xl, .containerMy-lg, .containerMy-md, .containerMy-sm, .containerMy {
+      max-width: 1490px;
+    }
+    input,
+    textarea {
+        width: 40%;
+        padding: 5px;
+    }
+  }
+
+
